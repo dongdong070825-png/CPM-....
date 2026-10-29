@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPM 주공정법</title>
+    <meta
+      name="description"
+      content="공정표를 처음 배우는 학생을 위한 CPM(주공정법) 학습. ES, EF부터 주공정까지."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&family=Noto+Serif+KR:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=36" />
+  </head>
+  <body>
+    <div class="grid-bg" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand-row">
+        <button type="button" class="back-btn" id="nav-back" hidden>← 뒤로</button>
+        <a class="logo" href="#/" data-link>
+          <span class="logo-mark">도</span>
+          <span class="logo-text">CPM 주공정법</span>
+        </a>
+      </div>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#/" data-nav="home" data-link><span class="mark mark-home" aria-hidden="true"></span>홈</a>
+        <a href="#/cpm/learn/schedule" data-nav="learn" data-link><span class="mark mark-learn" aria-hidden="true"></span>기초</a>
+        <a href="#/gantt" data-nav="gantt" data-link><span class="mark mark-gantt" aria-hidden="true"></span>간트차트</a>
+        <a href="#/cpm" data-nav="practice" data-link><span class="mark mark-practice" aria-hidden="true"></span>실습</a>
+        <a href="#/solve" data-nav="solve" data-link><span class="mark mark-solve" aria-hidden="true"></span>문제풀이</a>
+      </nav>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="site-footer">
+      <p>CPM 주공정법 · 처음 배우는 학생을 위한 공정표 학습</p>
+    </footer>
+
+    <script src="cpm.js?v=30"></script>
+    <script src="app.js?v=48"></script>
+  </body>
+</html>
